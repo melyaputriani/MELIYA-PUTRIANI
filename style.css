@@ -1,0 +1,48 @@
+*CSS (styles.css):*
+css
+body {
+    font-family: Times New Roman, serif;
+    line-height: 1.5;
+    margin: 43.33px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h1, .profile h2 {
+    margin-bottom: 10px;
+}
+
+.about {
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
